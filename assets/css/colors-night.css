@@ -1,0 +1,85 @@
+[data-theme="dark"] {
+    --white: #303030;
+    --grey1: #D6D6D6;
+    --grey2: var(--lime);
+    --grey3: #D6D6D6;
+    --cream1: #363634;
+    --cream2: #7C7F70;
+    --cream3: #53544A;
+    --cream4: #262626;
+    --dark-grey-2: #DEDEDE;
+    --dark-greyy: #DEDEDE;
+    --black-text: #ffffff;
+
+    --olive: var(--lime);
+
+    .fill-color-change path {
+        fill: #DEDEDE;
+    }
+    .stroke-color-change path {
+        stroke: #DEDEDE;
+    }
+    .slider-text-container {
+        background-color: #262626;
+    }
+
+    #collaborative-section-1 .card {
+        box-shadow: 0 1px 4px 0 rgba(38, 38, 38, .08);
+        border: 1px solid #262626;
+    }
+
+    #brands-section {
+        background-color: #262626 !important;
+    }
+
+    #careers-section-2 {
+        background-color: #262626 !important;
+    }
+
+    #breadcrumb,#sectors-section-2 {
+        background-color: #262626 !important;
+    }
+}
+
+[data-theme="blind"] {
+    --lime: #FFE65B;
+    --cream1: #F6EFE8;
+    --cream2: #c7bca0;
+    --cream3: #DAD0B8;
+
+    --olive: #816e41;
+
+    .first-level ul li:after,
+    .second-level ul li:after,
+    .third-level ul li:after {
+        border-bottom: 1px solid #FFE65B;
+    }
+
+    .lime-text svg path {
+        fill: #FFE65B
+    }
+
+    .stroke-change {
+        stroke: #FFE65B
+    }
+
+    #last-section {
+        background-color: #858283;
+    }
+
+    #navbarSupportedContent .btn.btn-secondary.active::after {
+        background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4.5 6.75l4.5 4.5 4.5-4.5" stroke="%23FFE65B" class="stroke-svg" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+    }
+
+    #navbarSupportedContent .btn.btn-secondary:hover::after {
+        background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4.5 6.75l4.5 4.5 4.5-4.5" stroke="%23FFE65B" class="stroke-svg" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+        transition: background-image 1s;
+    }
+
+    #collaborative-section-1 .card {
+        background-color: var(--cream1);
+        box-shadow: 0 1px 4px 0 rgb(246, 239, 232, .08);
+        border: 1px solid #F6EFE8;
+    }
+
+}

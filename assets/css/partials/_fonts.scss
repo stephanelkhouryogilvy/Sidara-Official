@@ -1,0 +1,50 @@
+/* -----------------------------------------------------
+Fonts
+----------------------------------------------------- */
+@font-face {
+    font-family: 'SidaraRecifeTextBook';
+    src: url('../../assets/fonts/SidaraRecifeTextBook.eot');
+    src: url('../../assets/fonts/SidaraRecifeTextBook.eot') format('embedded-opentype'),
+        url('../../assets/fonts/SidaraRecifeTextBook.woff2') format('woff2'),
+        url('../../assets/fonts/SidaraRecifeTextBook.woff') format('woff'),
+        url('../../assets/fonts/SidaraRecifeTextBook.ttf') format('truetype'),
+        url('../../assets/fonts/SidaraRecifeTextBook.svg#SidaraRecifeTextBook') format('svg');
+}
+
+@font-face {
+    font-family: 'SidaraSaansRegular';
+    src: url('../../assets/fonts/SidaraSaansRegular.eot');
+    src: url('../../assets/fonts/SidaraSaansRegular.eot') format('embedded-opentype'),
+        url('../../assets/fonts/SidaraSaansRegular.woff2') format('woff2'),
+        url('../../assets/fonts/SidaraSaansRegular.woff') format('woff'),
+        url('../../assets/fonts/SidaraSaansRegular.ttf') format('truetype'),
+        url('../../assets/fonts/SidaraSaansRegular.svg#SidaraSaansRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'SidaraSaansMedium';
+    src: url('../../assets/fonts/SidaraSaansMedium.eot');
+    src: url('../../assets/fonts/SidaraSaansMedium.eot') format('embedded-opentype'),
+        url('../../assets/fonts/SidaraSaansMedium.woff2') format('woff2'),
+        url('../../assets/fonts/SidaraSaansMedium.woff') format('woff'),
+        url('../../assets/fonts/SidaraSaansMedium.ttf') format('truetype'),
+        url('../../assets/fonts/SidaraSaansMedium.svg#SidaraSaansMedium') format('svg');
+}
+
+
+$font-regular: 'SidaraSaansRegular';
+$font-medium: 'SidaraSaansMedium';
+$font-book: 'SidaraRecifeTextBook';
+
+
+.font-book {
+    font-family: $font-book
+}
+
+.font-m {
+    font-family: $font-medium
+}
+
+.font-r {
+    font-family: $font-regular
+}

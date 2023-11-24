@@ -1,0 +1,242 @@
+html,
+body {
+    font-size: 16px;
+}
+
+/*    background colors    */
+.bg-white {
+    background-color: var(--white) !important;
+}
+
+.dark-grey-bg {
+    background-color: var(--dark-grey) !important;
+}
+
+.dark-grey-bg-2 {
+    background-color: #262626 !important;
+    transition: all 0.5s;
+    transition-delay: 0s;
+}
+
+.bg-transparent {
+    background-color: transparent !important;
+    transition: all 1s;
+}
+
+.bg-transparent-1 {
+    background-color: transparent !important;
+    transition: all 1s;
+    transition-delay: 1s;
+}
+
+.light-grey-text {
+    color: var(--light-grey) !important;
+}
+
+.lime-text {
+    color: var(--lime) !important;
+    transition: all 1s;
+}
+
+.lime-bg {
+    background-color: var(--lime) !important;
+    transition: all 1s;
+}
+
+.text-white {
+    color: var(--white) !important;
+    transition: all 1s;
+}
+
+.text-cream {
+    color: var(--cream) !important;
+}
+
+.bg-cream1 {
+    background-color: var(--cream1) !important
+}
+
+.bg-cream2 {
+    background-color: var(--cream2) !important
+}
+
+.bg-cream3 {
+    background-color: var(--cream3) !important;
+}
+
+/*    font sizes    */
+.fs-3 {
+    font-size: 3rem !important;
+    line-height: 0.6;
+}
+
+.fs-4 {
+    font-size: 2.5rem !important;
+    line-height: 1;
+}
+
+.fs-5 {
+    font-size: 1.875rem !important;
+    line-height: 1;
+}
+
+.fs-6 {
+    font-size: 1.25rem !important;
+    line-height: 1.5;
+}
+
+.fs-13 {
+    font-size: 0.813rem !important;
+    line-height: 1.5;
+}
+
+.fs-8 {
+    font-size: 0.5rem !important;
+    line-height: 1;
+}
+
+.fs-10 {
+    font-size: 0.625rem !important;
+    line-height: 1;
+}
+
+.fs-12 {
+    font-size: 0.75rem !important;
+    line-height: 1.5;
+}
+
+.fs-14 {
+    font-size: 0.875rem !important;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.fs-18 {
+    font-size: 1.125rem !important;
+    line-height: 1.5;
+}
+
+.fs-20 {
+    font-size: 1.25rem !important;
+    line-height: 1.5;
+}
+
+.fs-22 {
+    font-size: 1.375rem !important;
+    line-height: 1.5;
+}
+
+.fs-24 {
+    font-size: 1.5rem !important;
+    line-height: 1.5;
+}
+
+.fs-28 {
+    font-size: 1.75rem !important;
+    line-height: 1.4;
+}
+
+.fs-32 {
+    font-size: 2rem !important;
+    line-height: 133%;
+}
+
+.fs-36 {
+    font-size: 2.25rem !important;
+    line-height: 1;
+}
+
+.fs-48 {
+    font-size: 3rem !important;
+    line-height: 1;
+}
+
+.fs-56 {
+    font-size: 3.5rem !important;
+    line-height: 1;
+}
+
+.fs-96 {
+    font-size: 5.5rem !important;
+    line-height: 1;
+}
+
+
+h2 {
+    @extend .fs-48, .font-book;
+    margin-bottom: 1.5rem;
+}
+
+h5 {
+    @extend .fs-24, .font-book;
+}
+
+p ,a{
+    @extend .font-r;
+    margin-bottom: 0;
+
+    &.display-1 {
+        @extend .fs-22;
+    }
+
+    &.display-3 {
+        @extend .fs-14;
+    }
+}
+
+.first-level,
+.second-level,
+.third-level {
+    p {
+        &.display-3 {
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            padding-right: 0.5rem !important;
+            padding-left: 0.5rem !important;
+        }
+    }
+}
+
+.form-range::-webkit-slider-thumb {
+    background: #DEDEDE;
+    margin-top: -6px
+}
+
+.form-range::-moz-range-thumb {
+    background: #DEDEDE;
+}
+
+.form-range::-ms-thumb {
+    background: #DEDEDE;
+}
+
+.form-range {
+    position: relative;
+
+    &::-moz-range-track {
+        height: 2px;
+    }
+
+    &::-ms-track {
+        height: 2px;
+    }
+
+    &::-webkit-slider-runnable-track {
+        height: 2px;
+    }
+}
+
+.form-range::-webkit-slider-thumb:active {
+    background-color: #DEDEDE;
+}
+
+.form-range::-webkit-slider-thumb,
+.form-range:focus::-webkit-slider-thumb,
+.form-range:focus::-moz-range-thumb,
+.form-range:focus::-ms-thumb {
+    box-shadow: #DEDEDE;
+}
+
+.h-100vh {
+    height: 100vh;
+}

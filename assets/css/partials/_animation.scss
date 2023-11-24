@@ -1,0 +1,112 @@
+/* FIRST FOLD BULLETS ANIMATION START */
+
+@-webkit-keyframes progress {
+    0% {
+        stroke-dashoffset: -75;
+        opacity: 1;
+    }
+
+    95% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        stroke-dashoffset: 0;
+    }
+}
+
+@-moz-keyframes progress {
+    0% {
+        stroke-dashoffset: -75;
+        opacity: 1;
+    }
+
+    95% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        stroke-dashoffset: 0;
+    }
+}
+
+@-o-keyframes progress {
+    0% {
+        stroke-dashoffset: -75;
+        opacity: 1;
+    }
+
+    95% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes progress {
+    0% {
+        stroke-dashoffset: -75;
+        opacity: 1;
+    }
+
+    95% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        stroke-dashoffset: 0;
+    }
+}
+
+/* FIRST FOLD BULLETS ANIMATION END */
+
+
+/* FIRST FOLD TEXT ANIMATION START */
+
+@-webkit-keyframes text-slide {
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@-moz-keyframes text-slide {
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@-o-keyframes text-slide {
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes text-slide {
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+/* FIRST FOLD TEXT ANIMATION END */
+
+
+@keyframes border_anim {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}

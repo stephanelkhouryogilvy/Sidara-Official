@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="60.466667"
+   height="34.013332"
+   viewBox="0 0 60.466667 34.013332"
+   sodipodi:docname="DAR Logo.eps"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="g8"
+     inkscape:groupmode="layer"
+     inkscape:label="ink_ext_XXXXXX"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,34.013333)">
+    <g
+       id="g10"
+       transform="scale(0.1)">
+      <path
+         d="m 113.395,28.3281 v 0 H 28.3477 V 141.723 h 85.0473 z m 0,141.7419 H 28.3477 L 0,141.723 V 28.3281 L 28.3477,0 H 113.387 L 141.73,28.3477 V 255.117 h -28.343 l 0.008,-85.047"
+         style="fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path12" />
+      <path
+         d="m 283.488,28.3281 -85.062,0.0196 v 56.6914 l 85.062,-0.0118 z M 198.426,170.078 V 141.73 h 85.039 v -28.343 h -85.039 l 0.015,-0.012 -28.363,-28.3359 0.016,-0.0118 -0.016,-56.6796 0.016,-0.0196 L 198.426,0 h 85.039 l 28.348,28.3477 V 141.73 l -28.348,28.348 h -85.039"
+         style="fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path14" />
+      <path
+         d="m 368.531,170.07 -0.027,0.008 -28.348,-28.348 V 0 h 28.348 l 0.027,141.723 85.012,0.007 v 28.348 l -85.012,-0.008"
+         style="fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path16" />
+    </g>
+  </g>
+</svg>
